@@ -1,0 +1,17 @@
+{
+    "name": "alegoba/poo",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AleGoBa",
+            "email": "davidalejandrogonzalezbarba@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "require": {}
+}
