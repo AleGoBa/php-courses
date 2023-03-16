@@ -46,8 +46,8 @@ echo "\n";
 echo date("Y/m/d",(new DateTime('2022-06-09'))->format('U'));
 echo "\n";
 
-//Best way to add/sub intervals to a date without DateInterval object or
+//Best way to add/sub intervals to a date without DateInterval object
 $date->modify('1 year');
-echo $date;
+echo $date->format('d F Y H:i:s');
 echo "\n";
 
